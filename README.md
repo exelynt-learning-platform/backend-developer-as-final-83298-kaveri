@@ -13,13 +13,6 @@ REST API for booking rooms, vehicles, and equipment. Users can view available re
 Settings live in a `.env` file in this folder. That file is listed in `.gitignore`, so it stays on your machine.
 
 ```
-DB_URL=jdbc:postgresql://localhost:5432/Backend_db
-DB_USERNAME=postgres
-DB_PASSWORD=Kaveri@2005
-
-JWT_SECRET=your_super_secret_key_change_me_32
-JWT_EXPIRATION_MS=3600000
-```
 
 | Variable | Value in `.env` | Purpose |
 |---|---|---|
