@@ -10,15 +10,26 @@ REST API for booking rooms, vehicles, and equipment. Users can view available re
 
 ## Configuration
 
-The app reads these environment variables. Defaults match a local PostgreSQL database named `Backend_db`.
+Settings live in a `.env` file in this folder. That file is listed in `.gitignore`, so it stays on your machine.
 
-| Variable | Default | Purpose |
+```
+DB_URL=jdbc:postgresql://localhost:5432/Backend_db
+DB_USERNAME=postgres
+DB_PASSWORD=Kaveri@2005
+
+JWT_SECRET=your_super_secret_key_change_me_32
+JWT_EXPIRATION_MS=3600000
+```
+
+| Variable | Value in `.env` | Purpose |
 |---|---|---|
 | `DB_URL` | `jdbc:postgresql://localhost:5432/Backend_db` | JDBC URL |
 | `DB_USERNAME` | `postgres` | Database user |
-| `DB_PASSWORD` | `Kaveri@2005` | Database password |
-| `JWT_SECRET` | a 44-character development key | HMAC signing key, at least 32 characters |
-| `JWT_EXPIRATION_MS` | `3600000` | Token lifetime in milliseconds |
+| `DB_PASSWORD` | set in `.env` | Database password |
+| `JWT_SECRET` | set in `.env` | HMAC signing key, at least 32 characters |
+| `JWT_EXPIRATION_MS` | `3600000` | Token lifetime in milliseconds (1 hour) |
+
+The app loads `.env` from the `Backend` folder when it starts, including when the run directory is the parent folder. `JWT_SECRET` must be at least 32 characters.
 
 Create the database before the first start:
 
@@ -27,6 +38,8 @@ CREATE DATABASE "Backend_db";
 ```
 
 ## Run
+
+From the `Backend` folder:
 
 ```bash
 ./mvnw spring-boot:run
