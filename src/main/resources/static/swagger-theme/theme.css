@@ -1,0 +1,150 @@
+.swagger-ui .topbar {
+    display: none;
+}
+
+#swagger-theme-toggle {
+    margin-right: 8px;
+    border-radius: 4px;
+    padding: 6px 14px;
+    font: 600 14px/1 sans-serif;
+    cursor: pointer;
+    border: 1px solid #8b949e;
+    background: #ffffff;
+    color: #1b1b1b;
+    align-self: center;
+}
+
+html[data-theme="dark"] #swagger-theme-toggle {
+    background: #21262d;
+    color: #f0f6fc;
+    border-color: #8b949e;
+}
+
+html[data-theme="dark"],
+html[data-theme="dark"] body {
+    background: #0e1116;
+    color-scheme: dark;
+}
+
+html[data-theme="dark"] .swagger-ui,
+html[data-theme="dark"] .swagger-ui .info .title,
+html[data-theme="dark"] .swagger-ui .info p,
+html[data-theme="dark"] .swagger-ui .info li,
+html[data-theme="dark"] .swagger-ui .info a,
+html[data-theme="dark"] .swagger-ui .opblock-tag,
+html[data-theme="dark"] .swagger-ui .opblock-tag small,
+html[data-theme="dark"] .swagger-ui .opblock .opblock-summary-path,
+html[data-theme="dark"] .swagger-ui .opblock .opblock-summary-path__deprecated,
+html[data-theme="dark"] .swagger-ui .opblock .opblock-summary-description,
+html[data-theme="dark"] .swagger-ui .opblock-description-wrapper p,
+html[data-theme="dark"] .swagger-ui .opblock-description-wrapper,
+html[data-theme="dark"] .swagger-ui .parameter__name,
+html[data-theme="dark"] .swagger-ui .parameter__type,
+html[data-theme="dark"] .swagger-ui .parameter__deprecated,
+html[data-theme="dark"] .swagger-ui .parameter__in,
+html[data-theme="dark"] .swagger-ui table thead tr td,
+html[data-theme="dark"] .swagger-ui table thead tr th,
+html[data-theme="dark"] .swagger-ui .response-col_status,
+html[data-theme="dark"] .swagger-ui .response-col_links,
+html[data-theme="dark"] .swagger-ui .response-col_description,
+html[data-theme="dark"] .swagger-ui .model-title,
+html[data-theme="dark"] .swagger-ui .model,
+html[data-theme="dark"] .swagger-ui .model span,
+html[data-theme="dark"] .swagger-ui section.models h4,
+html[data-theme="dark"] .swagger-ui section.models h5,
+html[data-theme="dark"] .swagger-ui .prop-type,
+html[data-theme="dark"] .swagger-ui .prop-format,
+html[data-theme="dark"] .swagger-ui label,
+html[data-theme="dark"] .swagger-ui .tab li,
+html[data-theme="dark"] .swagger-ui .renderedMarkdown p,
+html[data-theme="dark"] .swagger-ui .renderedMarkdown li {
+    color: #e6edf3;
+}
+
+html[data-theme="dark"] .swagger-ui .scheme-container,
+html[data-theme="dark"] .swagger-ui section.models,
+html[data-theme="dark"] .swagger-ui .model-box,
+html[data-theme="dark"] .swagger-ui .dialog-ux .modal-ux,
+html[data-theme="dark"] .swagger-ui .dialog-ux .modal-ux-content,
+html[data-theme="dark"] .swagger-ui .auth-container {
+    background: #161b22;
+}
+
+html[data-theme="dark"] .swagger-ui .opblock {
+    background: rgba(22, 27, 34, 0.9);
+    border-color: #30363d;
+}
+
+html[data-theme="dark"] .swagger-ui .opblock .opblock-section-header {
+    background: #21262d;
+    box-shadow: none;
+}
+
+html[data-theme="dark"] .swagger-ui .opblock .opblock-section-header h4,
+html[data-theme="dark"] .swagger-ui .opblock .opblock-section-header label {
+    color: #e6edf3;
+}
+
+html[data-theme="dark"] .swagger-ui .opblock-body,
+html[data-theme="dark"] .swagger-ui .opblock-body pre.microlight,
+html[data-theme="dark"] .swagger-ui .model-box,
+html[data-theme="dark"] .swagger-ui .highlight-code,
+html[data-theme="dark"] .swagger-ui textarea {
+    background: #0e1116;
+}
+
+html[data-theme="dark"] .swagger-ui input[type=text],
+html[data-theme="dark"] .swagger-ui input[type=password],
+html[data-theme="dark"] .swagger-ui input[type=search],
+html[data-theme="dark"] .swagger-ui input[type=email],
+html[data-theme="dark"] .swagger-ui input[type=file],
+html[data-theme="dark"] .swagger-ui textarea,
+html[data-theme="dark"] .swagger-ui select {
+    background: #0e1116;
+    color: #e6edf3;
+    border-color: #30363d;
+}
+
+html[data-theme="dark"] .swagger-ui .btn {
+    color: #e6edf3;
+    border-color: #8b949e;
+    background: transparent;
+}
+
+html[data-theme="dark"] .swagger-ui .btn.execute {
+    background: #1f6feb;
+    color: #ffffff;
+    border-color: #1f6feb;
+}
+
+html[data-theme="dark"] .swagger-ui .topbar {
+    background: #010409;
+}
+
+html[data-theme="dark"] .swagger-ui .markdown code,
+html[data-theme="dark"] .swagger-ui .renderedMarkdown code {
+    background: #21262d;
+    color: #e6edf3;
+}
+
+html[data-theme="dark"] .swagger-ui table.model tr {
+    border-color: #30363d;
+}
+
+html[data-theme="dark"] .swagger-ui .servers > label,
+html[data-theme="dark"] .swagger-ui .servers-title {
+    color: #e6edf3;
+}
+
+html[data-theme="dark"] .swagger-ui .dialog-ux .modal-ux-header {
+    border-bottom-color: #30363d;
+}
+
+html[data-theme="dark"] .swagger-ui .dialog-ux .modal-ux-header h3,
+html[data-theme="dark"] .swagger-ui .dialog-ux .modal-ux-content p,
+html[data-theme="dark"] .swagger-ui .dialog-ux .modal-ux-content h4,
+html[data-theme="dark"] .swagger-ui .auth-container h4,
+html[data-theme="dark"] .swagger-ui .auth-container h5,
+html[data-theme="dark"] .swagger-ui .auth-container label {
+    color: #e6edf3;
+}
